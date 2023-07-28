@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883C3E0D2A747E5900E2FA7A /* cobanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C3E0C2A747E5900E2FA7A /* cobanApp.swift */; };
+		883C3E0F2A747E5900E2FA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C3E0E2A747E5900E2FA7A /* ContentView.swift */; };
+		883C3E112A747E5A00E2FA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C3E102A747E5A00E2FA7A /* Assets.xcassets */; };
+		883C3E152A747E5A00E2FA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C3E142A747E5A00E2FA7A /* Preview Assets.xcassets */; };
+		883C3E1F2A747E5A00E2FA7A /* cobanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C3E1E2A747E5A00E2FA7A /* cobanTests.swift */; };
+		883C3E292A747E5A00E2FA7A /* cobanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C3E282A747E5A00E2FA7A /* cobanUITests.swift */; };
+		883C3E2B2A747E5A00E2FA7A /* cobanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C3E2A2A747E5A00E2FA7A /* cobanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883C3E1B2A747E5A00E2FA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883C3E012A747E5900E2FA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883C3E082A747E5900E2FA7A;
+			remoteInfo = coban;
+		};
+		883C3E252A747E5A00E2FA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883C3E012A747E5900E2FA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883C3E082A747E5900E2FA7A;
+			remoteInfo = coban;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883C3E092A747E5900E2FA7A /* coban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C3E0C2A747E5900E2FA7A /* cobanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobanApp.swift; sourceTree = "<group>"; };
+		883C3E0E2A747E5900E2FA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		883C3E102A747E5A00E2FA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883C3E122A747E5A00E2FA7A /* coban.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coban.entitlements; sourceTree = "<group>"; };
+		883C3E142A747E5A00E2FA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883C3E1A2A747E5A00E2FA7A /* cobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C3E1E2A747E5A00E2FA7A /* cobanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobanTests.swift; sourceTree = "<group>"; };
+		883C3E242A747E5A00E2FA7A /* cobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C3E282A747E5A00E2FA7A /* cobanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobanUITests.swift; sourceTree = "<group>"; };
+		883C3E2A2A747E5A00E2FA7A /* cobanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883C3E062A747E5900E2FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E172A747E5A00E2FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E212A747E5A00E2FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883C3E002A747E5900E2FA7A = {
+			isa = PBXGroup;
+			children = (
+				883C3E0B2A747E5900E2FA7A /* coban */,
+				883C3E1D2A747E5A00E2FA7A /* cobanTests */,
+				883C3E272A747E5A00E2FA7A /* cobanUITests */,
+				883C3E0A2A747E5900E2FA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		883C3E0A2A747E5900E2FA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883C3E092A747E5900E2FA7A /* coban.app */,
+				883C3E1A2A747E5A00E2FA7A /* cobanTests.xctest */,
+				883C3E242A747E5A00E2FA7A /* cobanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883C3E0B2A747E5900E2FA7A /* coban */ = {
+			isa = PBXGroup;
+			children = (
+				883C3E0C2A747E5900E2FA7A /* cobanApp.swift */,
+				883C3E0E2A747E5900E2FA7A /* ContentView.swift */,
+				883C3E102A747E5A00E2FA7A /* Assets.xcassets */,
+				883C3E122A747E5A00E2FA7A /* coban.entitlements */,
+				883C3E132A747E5A00E2FA7A /* Preview Content */,
+			);
+			path = coban;
+			sourceTree = "<group>";
+		};
+		883C3E132A747E5A00E2FA7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				883C3E142A747E5A00E2FA7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		883C3E1D2A747E5A00E2FA7A /* cobanTests */ = {
+			isa = PBXGroup;
+			children = (
+				883C3E1E2A747E5A00E2FA7A /* cobanTests.swift */,
+			);
+			path = cobanTests;
+			sourceTree = "<group>";
+		};
+		883C3E272A747E5A00E2FA7A /* cobanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883C3E282A747E5A00E2FA7A /* cobanUITests.swift */,
+				883C3E2A2A747E5A00E2FA7A /* cobanUITestsLaunchTests.swift */,
+			);
+			path = cobanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883C3E082A747E5900E2FA7A /* coban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C3E2E2A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "coban" */;
+			buildPhases = (
+				883C3E052A747E5900E2FA7A /* Sources */,
+				883C3E062A747E5900E2FA7A /* Frameworks */,
+				883C3E072A747E5900E2FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coban;
+			productName = coban;
+			productReference = 883C3E092A747E5900E2FA7A /* coban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883C3E192A747E5A00E2FA7A /* cobanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C3E312A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "cobanTests" */;
+			buildPhases = (
+				883C3E162A747E5A00E2FA7A /* Sources */,
+				883C3E172A747E5A00E2FA7A /* Frameworks */,
+				883C3E182A747E5A00E2FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883C3E1C2A747E5A00E2FA7A /* PBXTargetDependency */,
+			);
+			name = cobanTests;
+			productName = cobanTests;
+			productReference = 883C3E1A2A747E5A00E2FA7A /* cobanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883C3E232A747E5A00E2FA7A /* cobanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C3E342A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "cobanUITests" */;
+			buildPhases = (
+				883C3E202A747E5A00E2FA7A /* Sources */,
+				883C3E212A747E5A00E2FA7A /* Frameworks */,
+				883C3E222A747E5A00E2FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883C3E262A747E5A00E2FA7A /* PBXTargetDependency */,
+			);
+			name = cobanUITests;
+			productName = cobanUITests;
+			productReference = 883C3E242A747E5A00E2FA7A /* cobanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883C3E012A747E5900E2FA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					883C3E082A747E5900E2FA7A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					883C3E192A747E5A00E2FA7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 883C3E082A747E5900E2FA7A;
+					};
+					883C3E232A747E5A00E2FA7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 883C3E082A747E5900E2FA7A;
+					};
+				};
+			};
+			buildConfigurationList = 883C3E042A747E5900E2FA7A /* Build configuration list for PBXProject "coban" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883C3E002A747E5900E2FA7A;
+			productRefGroup = 883C3E0A2A747E5900E2FA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883C3E082A747E5900E2FA7A /* coban */,
+				883C3E192A747E5A00E2FA7A /* cobanTests */,
+				883C3E232A747E5A00E2FA7A /* cobanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883C3E072A747E5900E2FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C3E152A747E5A00E2FA7A /* Preview Assets.xcassets in Resources */,
+				883C3E112A747E5A00E2FA7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E182A747E5A00E2FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E222A747E5A00E2FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883C3E052A747E5900E2FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C3E0F2A747E5900E2FA7A /* ContentView.swift in Sources */,
+				883C3E0D2A747E5900E2FA7A /* cobanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E162A747E5A00E2FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C3E1F2A747E5A00E2FA7A /* cobanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C3E202A747E5A00E2FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C3E2B2A747E5A00E2FA7A /* cobanUITestsLaunchTests.swift in Sources */,
+				883C3E292A747E5A00E2FA7A /* cobanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883C3E1C2A747E5A00E2FA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883C3E082A747E5900E2FA7A /* coban */;
+			targetProxy = 883C3E1B2A747E5A00E2FA7A /* PBXContainerItemProxy */;
+		};
+		883C3E262A747E5A00E2FA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883C3E082A747E5900E2FA7A /* coban */;
+			targetProxy = 883C3E252A747E5A00E2FA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		883C3E2C2A747E5A00E2FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		883C3E2D2A747E5A00E2FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		883C3E2F2A747E5A00E2FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coban/coban.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coban/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.coban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883C3E302A747E5A00E2FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coban/coban.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coban/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.coban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		883C3E322A747E5A00E2FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.cobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coban.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coban";
+			};
+			name = Debug;
+		};
+		883C3E332A747E5A00E2FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.cobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coban.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coban";
+			};
+			name = Release;
+		};
+		883C3E352A747E5A00E2FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.cobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coban;
+			};
+			name = Debug;
+		};
+		883C3E362A747E5A00E2FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LLTJ4SD93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delemp.cobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coban;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883C3E042A747E5900E2FA7A /* Build configuration list for PBXProject "coban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C3E2C2A747E5A00E2FA7A /* Debug */,
+				883C3E2D2A747E5A00E2FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C3E2E2A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "coban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C3E2F2A747E5A00E2FA7A /* Debug */,
+				883C3E302A747E5A00E2FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C3E312A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "cobanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C3E322A747E5A00E2FA7A /* Debug */,
+				883C3E332A747E5A00E2FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C3E342A747E5A00E2FA7A /* Build configuration list for PBXNativeTarget "cobanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C3E352A747E5A00E2FA7A /* Debug */,
+				883C3E362A747E5A00E2FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883C3E012A747E5900E2FA7A /* Project object */;
+}
